@@ -12,5 +12,8 @@
 - 10. delete specific element
 - 11. find duplicates
 - 12. find missing
+- 13. sum of all element - odd,even,average
+
+- 14. median of array 
 
 

@@ -1,20 +1,11 @@
-const reverseArray = (a) => {
-  let temp;
-  for (let i = 0; i < a.length; i++) {
-    for (let j = i + 1; j < a.length - i; j++) {
-      if (a[i] < a[j]) {
-        temp = a[i];
-        a[i] = a[j];
-        a[j] = temp;
-        console.log(i,j)
-      }
-    }
+const a = [1, 2, 3, 4, 5];
+
+function reverseArray(arr) {
+    const reversedArray = []
+  for (let i = a.length-1; i >= 0; i--) {
+    reversedArray.push(arr[i])
   }
-  return a;
-};
+  return reversedArray
+}
 
-const array = [2, 3, 5, 8, 9, 6, 1, 7, 4, 0];
-
-const reverseedArray = reverseArray(array);
-
-console.log(JSON.stringify(reverseedArray));
+console.log(reverseArray(a))

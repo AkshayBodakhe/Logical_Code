@@ -1,4 +1,3 @@
-
 const sortArray = (a) => {
   let temp;
   for (let i = 0; i < a.length; i++) {
