@@ -1,0 +1,4 @@
+
+the program which is found hard is in hard folder
+which may need to be revised more
+or in case didn't totally understand
