@@ -1,0 +1,13 @@
+
+loops 
+- for
+- while 
+- do while
+
+conditions
+- if 
+- if else
+
+EX-
+- print 1 to 10
+- print table of given number

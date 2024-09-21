@@ -7,7 +7,6 @@ function isPrime(num) {
     return false;
   }
   for (let i = 2; i <= Math.sqrt(num); i++) {
-    // console.log("iterations =>", i);
     if (num % i === 0) {
       return false;
     }
