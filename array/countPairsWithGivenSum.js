@@ -14,7 +14,7 @@ function getPairsCount(arr, n, sum) {
 let array =  [ 1, 5, 7, -1, 5 ];
 let n = array.length
 let sum = 6
-console.log('Count of pairs is',getPairsCount(array,n,sum))
+console.log('Count of pairs is',getPairsCount(array,n,sum))  
 
 
 // Your implementation of getPairsCount is correct and straightforward for counting pairs with a 

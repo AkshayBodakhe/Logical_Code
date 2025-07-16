@@ -9,7 +9,7 @@ const checkEvenOdd = (number) => {
   }
 };
 
-// console.log(checkEvenOdd(9));
+console.log(checkEvenOdd(10)); 
 // console.log(checkEvenOdd(4));
 
 function analyzeArray(arr) {
@@ -25,7 +25,7 @@ function analyzeArray(arr) {
       sumEven += arr[i];
       countEven++;
     } else {
-      sumOdd += arr[i];
+      sumOdd += arr[i]; 
       countOdd++;
     }
   }
@@ -34,7 +34,7 @@ function analyzeArray(arr) {
 
 const array = [1, 2, 3, 3, 2, 4, 5, 3, 5, 3, 6, 7];
 const result = analyzeArray(array);
-console.log('Sum of even numbers:', result.sumEven);
-console.log('Sum of odd numbers:', result.sumOdd);
-console.log('Count of even numbers:', result.countEven);
-console.log('Count of odd numbers:', result.countOdd);
+// console.log('Sum of even numbers:', result.sumEven);
+// console.log('Sum of odd numbers:', result.sumOdd);
+// console.log('Count of even numbers:', result.countEven);
+// console.log('Count of odd numbers:', result.countOdd);

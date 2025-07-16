@@ -8,7 +8,7 @@ const insertElementAtIndex = (arr, index, element) => {
 
   for (let i = 0; i < index; i++) {
     newArr[i] = arr[i];
-    console.log(arr[i]);
+    // console.log(arr[i]);
   }
   newArr[index] = element;
   for (let i = index; i < arr.length; i++) {

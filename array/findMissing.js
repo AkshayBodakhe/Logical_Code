@@ -15,7 +15,6 @@ const missingNumber = findMissingNumber(array);
 // all missing numbers in array
 function prletMissingElements(arr, N) {
   let diff = arr[0] - 0; // Initialize the difference between the first element and its index
-
   for (let i = 0; i < N; i++) {
     // console.log('arr[i] - i ',arr[i] - i )
     if (arr[i] - i != diff) { // Check if the current element minus its index does not match the initial difference
@@ -29,3 +28,16 @@ function prletMissingElements(arr, N) {
 arr = [1, 2, 6, 7, 10, 11, 13];
 let N = arr.length;
 prletMissingElements(arr, N);
+
+// need to understand more
+function allMissingElement(arr, N) {
+  let diff = arr[0] - 0;
+  for (let i = 0; i < N; i++) {
+    if (arr[i] - i != diff) {
+      while (diff < arr[i] - i) {
+        console.log(i + diff + " ");
+        diff++;
+      }
+    }
+  }
+}

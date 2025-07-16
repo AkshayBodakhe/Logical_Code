@@ -21,3 +21,5 @@ console.log(duplicates);
 // --most repeating number , second most
 // --repeating number with it's repeat count
 // --find first duplicate
+
+

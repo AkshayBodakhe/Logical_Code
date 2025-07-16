@@ -10,3 +10,4 @@ function isArraySorted(a) {
 }
 
 console.log(isArraySorted(arr));
+

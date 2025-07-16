@@ -13,9 +13,9 @@ const deleteElement = (arr, index) => {
 };
 
 // this is with single loop , a bit efficient way
-const removeElement = (arr, ele) => {
+const removeElement = (arr, index) => {
   for (let i = 0; i < arr.length; i++) {
-    if (arr[ele] === arr[i]) {
+    if (arr[index] === arr[i]) {
       for (let j = i; j < arr.length - 1; j++) {
         arr[j] = arr[j + 1];
       }
@@ -28,6 +28,6 @@ const removeElement = (arr, ele) => {
 
 const array = [1, 2, 3, 4, 5, 6];
 
-const deletedEleArr = deleteElement(array, 2);
+const deletedEleArr = removeElement(array, 1);
 
 console.log("deletedEleArr => ", deletedEleArr);

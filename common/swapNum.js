@@ -12,4 +12,4 @@ const swapNumbers = (a,b) => {
     console.log(`After swap: a = ${a}, b = ${b}`);
 }
 
-swapNumbers(5, 10); 
+swapNumbers(2, 3); 

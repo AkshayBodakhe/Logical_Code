@@ -14,7 +14,7 @@ function isPrime(num) {
   return true;
 }
 
-// console.log(isPrime(num));
+console.log(isPrime(num));
 
 // console.log(Math.sqrt(num))
 
@@ -32,4 +32,4 @@ function printPrimesUpTo100() {
       }
     }
   }
-  printPrimesUpTo100();
+  // printPrimesUpTo100();
