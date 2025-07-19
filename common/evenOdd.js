@@ -38,3 +38,4 @@ const result = analyzeArray(array);
 // console.log('Sum of odd numbers:', result.sumOdd);
 // console.log('Count of even numbers:', result.countEven);
 // console.log('Count of odd numbers:', result.countOdd);
+
