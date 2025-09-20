@@ -12,3 +12,4 @@ function reverseString(str) {
   console.log(reverseString("JavaScript")); // Output: "tpircSavaJ"
   console.log(reverseString("12345")); // Output: "54321"
   
+  

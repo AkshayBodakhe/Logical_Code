@@ -12,3 +12,4 @@ const string = "this is a string";
 const reversed = reverseString(string);
 
 console.log("reversed =>", reversed);
+

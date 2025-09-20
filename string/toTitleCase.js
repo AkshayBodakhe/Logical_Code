@@ -3,7 +3,7 @@ function toTitleCase(str) {
   let newWord =true;
 
   for (let i = 0; i < str.length; i++) {
-    let char = str.charAt(i);
+    let char = str[i]
 
     if (char === " ") {
       result += char;

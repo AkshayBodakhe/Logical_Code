@@ -15,6 +15,6 @@ const reverseArray = (a) => {
 
 const array = [2, 3, 5, 8, 9, 6, 1, 7, 4, 0];
 
-const reverseedArray = reverseArray(array);
+const reversedArray = reverseArray(array);
 
-console.log(JSON.stringify(reverseedArray));
+console.log(JSON.stringify(reversedArray));

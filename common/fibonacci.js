@@ -11,15 +11,13 @@ function printFibonacci(n) {
   }
 }
 
-// printFibonacci(20)
+printFibonacci(10)
 
-function printFibonacciRec(n) {
-  if (n <= 1) {
-    return n;
-  }
-  return printFibonacciRec(n - 1) + printFibonacciRec(n - 2);
+function printFibonacciRecSeq(n, a = 0, b = 1) {
+  if (n === 0) return;
+  console.log(a);
+  printFibonacciRecSeq(n - 1, b, a + b);
 }
 
-const number = 4;
-const fibonacciValue = printFibonacciRec(number);
-console.log(fibonacciValue)
+// Example usage:
+// printFibonacciRecSeq(10); // Prints first 10 Fibonacci numbers

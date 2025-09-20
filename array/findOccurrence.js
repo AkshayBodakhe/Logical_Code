@@ -12,3 +12,4 @@ function findOccurance(ele) {
 
 console.log(findOccurance(2));
 
+

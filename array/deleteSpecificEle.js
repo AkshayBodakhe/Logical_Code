@@ -18,3 +18,4 @@ const deletedEleArr = removeElement(array, 0);
 console.log("deletedEleArr => ", deletedEleArr);
 
 
+

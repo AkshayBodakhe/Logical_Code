@@ -1,26 +1,26 @@
 const a = [2, 4, 7, 3];
 
-let sumofAll = 0;
-let sumofEven = 0;
-let sumofOdd = 0;
+let sumOfAll = 0;
+let sumOfEven = 0;
+let sumOfOdd = 0;
 
 let average = 0;
 
 for (let i = 0; i < a.length; i++) {
-  sumofAll = sumofAll + a[i];
-  average = sumofAll / a.length
+  sumOfAll = sumOfAll + a[i];
+  average = sumOfAll / a.length
   if (a[i] % 2 == 0) {
-    sumofEven += a[i];
+    sumOfEven += a[i];
   } else {
-    sumofOdd += a[i];
+    sumOfOdd += a[i];
   }
 }
 
-console.log("sum of all elements", sumofAll);
+console.log("sum of all elements", sumOfAll);
 
-console.log("sum of all even", sumofEven);
+console.log("sum of all even", sumOfEven);
 
-console.log("sum of all odd", sumofOdd);
+console.log("sum of all odd", sumOfOdd);
 
 console.log("average of all", average);
 

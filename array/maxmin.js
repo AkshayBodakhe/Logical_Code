@@ -26,3 +26,4 @@ const min = findMinInArray(array)
 
 console.log('Maximum value in the array is:', max);
 console.log('Minimum value in the array is:', min);
+

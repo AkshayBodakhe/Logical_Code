@@ -22,6 +22,7 @@ const reverseNumber = (n) => {
 
 console.log(reverseNumber(543021))
 
+
 // sort number
 
 function sortn(...n) {

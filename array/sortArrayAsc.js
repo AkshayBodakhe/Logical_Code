@@ -10,7 +10,7 @@ const sortArray = (a) => {
     }
   }
   return a;
-};
+}; 
 
 const array = [2, 3, 5, 8, 9, 6, 1, 7, 4, 0];
 

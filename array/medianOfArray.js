@@ -22,3 +22,4 @@ const findMedian = (a) => {
 
 console.log(findMedian([3, 1, 4, 2])); // Output: 2.5
 console.log(findMedian([7, 1, 3])); // Output: 3
+

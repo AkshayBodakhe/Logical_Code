@@ -5,21 +5,18 @@ const insertElementAtIndex = (arr, index, element) => {
   }
 
   let newArr = [];
-
-  for (let i = 0; i < index; i++) {
-    newArr[i] = arr[i];
-    // console.log(arr[i]);
+  for (let i = 0; i <= arr.length; i++) {
+    if (i < index) {
+      newArr[i] = arr[i];
+    } else if (i === index) {
+      newArr[i] = element;
+    } else {
+      newArr[i] = arr[i - 1];
+    }
   }
-  newArr[index] = element;
-  for (let i = index; i < arr.length; i++) {
-    newArr[i + 1] = arr[i];
-  }
-
   return newArr;
 };
 
 const array = [1, 2, 3, 4, 5];
-
-const insertedArr = insertElementAtIndex(array, 5, 6);
-
-console.log("insertedArr => ", insertedArr);
+const insertedArr = insertElementAtIndex(array, 4, 6);
+console.log("insertedArr => ", insertedArr); // [1, 2, 3, 4, 5, 6]

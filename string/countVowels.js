@@ -1,10 +1,10 @@
 function countVowels(str) {
   let count = 0;
-  const vowels = "aeiouAEIOU";
+  const vowels = "aeiou";
 
   for (let i = 0; i < str.length; i++) {
     for (let j = 0; j < vowels.length; j++) {
-        if(str[i] === vowels[j]){
+        if(str[i].toLowerCase() === vowels[j]){
             count++
             break;
         }
@@ -12,6 +12,19 @@ function countVowels(str) {
   }
   return count
 }
+// more efficient
+function countVowels2(str) {
+  let count = 0;
+  const vowels = new Set("aeiouAEIOU");
+
+  for (let char of str) {
+    if (vowels.has(char)) {
+      count++;
+    }
+  }
+  return count;
+}
+
 
 console.log(countVowels("hello")); // Output: 2
 console.log(countVowels("HELLO")); // Output: 2
